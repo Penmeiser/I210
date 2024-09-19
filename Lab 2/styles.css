@@ -1,0 +1,23 @@
+nav {
+    height: 20px;
+    background-color: rgb(255, 199, 241);
+}
+
+nav a {
+    text-decoration: none;
+    color: chocolate;
+}
+
+footer {
+    height: 20px;
+    background-color: rgb(255, 199, 241);
+}
+
+footer a {
+    text-decoration: none;
+    color: chocolate;
+}
+
+.copyright {
+    color: crimson;
+}

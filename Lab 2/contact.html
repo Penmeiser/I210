@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Index</title>
+</head>
+<body>
+    <header>
+        <nav id="top">
+            <a href="index.html">Index</a>
+            <a href="Tournament.html">Tournament</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <h1>contact us!</h1>
+    <form action="formPost.html" method="get">
+        <fieldset>
+            <legend>Contact info</legend>
+            <p>
+                <label for="Yoname">Yo NAME:</label>
+                <input type="text" name="Yoname" id="Yoname">
+            </p>
+            <p>
+                <label for="email">Yo Email:</label>
+                <input type="email" name="email" id="email">
+            </p>
+            <p>
+                <label for="tele">Yo Tellie:</label>
+                <input type="tel" name="tele" id="tele">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Smash Bros Statistics</legend>
+            <div>
+                <input type="radio" name="smashchar">
+                <label for="mario">Mario</label>
+            </div>
+            <div>
+                <input type="radio" name="smashchar">
+                <label for="luigi">Luigi</label>
+            </div>
+            <div>
+                <input type="radio" name="smashchar">
+                <label for="plant">Piranha Plant</label>
+            </div>
+            <div>
+                <label for="favMove">Favorite Ability</label>
+                <select name="FavAB" id="FavAB">
+                    <option value="upcut">Upper Cut</option>
+                    <option value="headB">Headbutt</option>
+                    <option value="none">There are no other options, there are only two, deal with it</option>
+                </select>
+            </div>
+            <div>
+                <label for="gamerate">How would you rate the game?</label>
+                <input type="range" min="0" max="10">
+            </div>
+            <div>
+                <label for="thoughts">Why do you main Piranha Plant?</label>
+                <textarea name="tots" id="tots"></textarea>
+            </div>
+        </fieldset>
+        <input type="submit" name="submit" id="submit">
+    </form>
+    <footer>
+        <p class="copyright">
+            copyright Magnolia &copy;
+        </p>
+        <a href="contact.html">Contact Us</a>
+        <a href="#top">Back to Top</a>
+        <a href="masInfo.html">MAS Information</a>
+    </footer>
+</body>
+</html>
